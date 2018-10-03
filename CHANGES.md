@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.2.0 (2018-10-03)
+- reduce size of LC logo
+
 ## 1.1.2 (2018-09-07)
 - use `Let's Connect!` instead of `Let's Connect`
 
