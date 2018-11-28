@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.0 (2018-11-28)
+- implement SAML logout support in `base.twig` template
+
 ## 1.2.0 (2018-10-03)
 - reduce size of LC logo
 
