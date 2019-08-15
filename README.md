@@ -1,1 +1,1 @@
-VPN Portal Styling for Let's Connect.
+VPN Portal Styling for Let's Connect!
