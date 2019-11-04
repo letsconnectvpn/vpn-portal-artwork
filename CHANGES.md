@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.0 (...)
+## 2.1.0 (2019-11-04)
 - update for new portal UI templates
 - add Let's Connect! theme translations
 - update "Home" screen to display application download links
