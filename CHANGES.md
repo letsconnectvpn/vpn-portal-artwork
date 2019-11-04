@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.0 (...)
+- update for new portal UI templates
+- add Let's Connect! theme translations
+- update "Home" screen to display application download links
+- initially hide the manual configuration creation, only for advanced users...
+
 ## 2.0.1 (2019-08-19)
 - update for new HTML/CSS stats
 
