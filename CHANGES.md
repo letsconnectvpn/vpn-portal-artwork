@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.1 (2020-01-27)
+- point the Mac App Store for macOS application
+- size the profile select box to the size of the number of items, auto 
+  selecting the first if there is only one
+
 ## 2.1.0 (2019-11-04)
 - update for new portal UI templates
 - add Let's Connect! theme translations

@@ -14,7 +14,7 @@
 		<img width="200" height="29" src="img/LC/Windows.png" alt="Windows">
 		<span><?=$this->t('Download'); ?></span>
 	</a>
-	<a target="_blank" href="https://app.letsconnect-vpn.org/mac/LetsConnect_latest.dmg">
+	<a target="_blank" href="https://apps.apple.com/app/lets-connect-vpn/id1486810037">
 		<img width="200" height="29" src="img/LC/macOS.png" alt="macOS">
 		<span><?=$this->t('Download'); ?></span>
 	</a>
