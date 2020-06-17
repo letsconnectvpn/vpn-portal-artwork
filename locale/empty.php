@@ -8,10 +8,14 @@
  */
 
 return [
+    'Android' => '',
     'Continue...' => '',
-    'Download' => '',
+    'Linux' => '',
     'On the "Configurations" page, advanced users can manually download VPN configurations.' => '',
     'On your "Account" page you can block access to the VPN in case you lose a device.' => '',
     'To use Let\'s Connect!, download the app for your device below!' => '',
     'Welcome to Let\'s Connect!' => '',
+    'Windows' => '',
+    'iOS' => '',
+    'macOS' => '',
 ];
