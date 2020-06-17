@@ -1,6 +1,5 @@
-<?php $this->layout('base', ['activeItem' => 'configurations']); ?>
+<?php $this->layout('base', ['activeItem' => 'configurations', 'pageTitle' => $this->t('Configurations')]); ?>
 <?php $this->start('content'); ?>
-    <h1><?=$this->t('Configurations'); ?></h1>
     <h2><?=$this->t('Create'); ?></h2>
     <?php if (0 === count($profileList)): ?>
         <p class="warning">
@@ -50,9 +49,9 @@
                     <td><span title="<?=$this->e($userCertificate['display_name']); ?>"><?=$this->etr($userCertificate['display_name'], 25); ?></span></td>
                     <td><?=$this->d($userCertificate['valid_to']); ?></td>
                     <td class="text-right">
-                        <form method="post" action="deleteCertificate">
+                        <form class="frm" method="post" action="deleteCertificate">
                             <input type="hidden" name="commonName" value="<?=$this->e($userCertificate['common_name']); ?>">
-                            <button type="submit"><?=$this->t('Delete'); ?></button>
+                            <button class="warning" type="submit"><?=$this->t('Delete'); ?></button>
                         </form>
                     </td>
                 </tr>
