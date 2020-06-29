@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.2.0 (2020-06-29)
+- implement new design
+
 ## 2.1.1 (2020-01-27)
 - point the Mac App Store for macOS application
 - size the profile select box to the size of the number of items, auto 
