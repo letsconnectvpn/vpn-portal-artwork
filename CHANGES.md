@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 (...)
+- add `de_DE` translation
+- add `pl_PL` translation
+
 ## 2.2.0 (2020-06-29)
 - implement new design
 
