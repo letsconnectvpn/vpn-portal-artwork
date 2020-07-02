@@ -4,6 +4,7 @@
 - add `de_DE` translation
 - add `pl_PL` translation
 - add `fr_FR` translation
+- add `ar_MA` translation
 
 ## 2.2.0 (2020-06-29)
 - implement new design
