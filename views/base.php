@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Let's Connect! - <?=$this->e($pageTitle); ?></title>
-    <link href="<?=$this->getCssUrl($requestRoot, 'screen.css'); ?>" media="screen" rel="stylesheet">    
+    <link href="<?=$this->getCssUrl($requestRoot, 'screen.css'); ?>" media="screen" rel="stylesheet">
     <link href="<?=$this->getCssUrl($requestRoot, 'LC/screen.css'); ?>" media="screen" rel="stylesheet">
 </head>
 <body>
-    <header class="page">			
+    <header class="page">
         <?=$this->insert('languageSwitcher'); ?>
         <?=$this->insert('logoutButton'); ?>
     </header>
     <nav>
 <?php if (isset($activeItem)): ?>
-            <?=$this->insert('menu', ['activeItem' => $activeItem]); ?>
+<?=$this->insert('menu', ['activeItem' => $activeItem]); ?>
 <?php endif; ?>
     </nav>
     <header class="main">
