@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Let's Connect! - <?=$this->e($pageTitle); ?></title>
-    <link href="<?=$this->getCssUrl($requestRoot, 'screen.css'); ?>" media="screen" rel="stylesheet">
-    <link href="<?=$this->getCssUrl($requestRoot, 'LC/screen.css'); ?>" media="screen" rel="stylesheet">
+    <link href="<?=$this->getAssetUrl($requestRoot, 'css/screen.css'); ?>" media="screen" rel="stylesheet">
+    <link href="<?=$this->getAssetUrl($requestRoot, 'css/LC/screen.css'); ?>" media="screen" rel="stylesheet">
 </head>
 <body>
     <header class="page">
